@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- عنوان جامع للعربي والإنجليزي لضمان الظهور بأي كلمة بحث -->
-    <title>ميس غفران  | Ms Ghofran Group</title>
+    <title>ميس غفران | Ms Ghofran Group</title>
     <meta name="description" content="الموقع الرسمي لـ جروب ميس غفران لطلاب الصف الأول الثانوي - Ms Ghofran Group First Secondary.">
     <meta name="keywords" content="ميس غفران, جروب ميس غفران, اولى ثانوي, Ms Ghofran, اولى ثانوي ميس غفران">
     <meta name="robots" content="index, follow">
@@ -20,12 +20,13 @@
             align-items: center;
             justify-content: flex-start;
             min-height: 100vh;
-            padding-top: 20px;
+            padding: 20px 10px;
         }
 
         .my-image {
-            width: 330px;
-            height: 250px;
+            max-width: 330px;
+            width: 100%;
+            height: auto;
             border-radius: 20px;
             margin: 20px 0;
         }
@@ -36,8 +37,8 @@
         }
 
         button {
-            padding: 20px 30px;
-            font-size: 25px;
+            padding: 15px 30px;
+            font-size: 22px;
             font-weight: bold;
             background-color: #9f0a0a;
             color: #ffffff;
@@ -46,31 +47,42 @@
             cursor: pointer;
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             transition: 0.2s;
-            margin-bottom: 120px;
+            margin-bottom: 40px;
         }
             
         button:active {
-            transform: scale(0.80);
+            transform: scale(0.90);
         }
 
         a {
             text-decoration: none;
         }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            max-height: 550px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
     </style>
 </head>
 <body>
     <h1>ميس غفران</h1>
-    <p>تتميز ميس غفران بلشرح الممتاز
-    وخبره كبيره في التعامل مع الطلاب و تبسيط المناهج لجميع المراحل الدراسية من الاعدادية حتى الثانوية</p>
+    <p>تتميز ميس غفران بالشرح الممتاز وخبرة كبيرة في التعامل مع الطلاب وتبسيط المناهج لجميع المراحل الدراسية من الإعدادية حتى الثانوية.</p>
+    
     <img src="my-photo.jpg" alt="صورة المادة" class="my-image">
-  <h3>للحجز والاستفسار، تواصل مباشره عبر واتساب</h3>
+    
+    <h3>للحجز والاستفسار، تواصل مباشرة عبر واتساب</h3>
     <a href="https://wa.me/qr/557RECJL423PI1" target="_blank"> 
         <button id="btn2">ميس غفران</button>
     </a>
+    
     <h3>فيديو تعريفي عن تجارب ميس غفران</h3>
-    <video height="550"controls>
-      <source src ="x.mp4">
+    <video controls>
+      <source src="x.mp4" type="video/mp4">
     </video>
-    <span>©جميع الحقوق محفوظة &middot  المبرمج E.E.SH</span>
+    
+    <span>© جميع الحقوق محفوظة &middot; المبرمج E.E.SH</span>
 </body>
 </html>
